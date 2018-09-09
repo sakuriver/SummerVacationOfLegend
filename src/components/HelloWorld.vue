@@ -1,7 +1,12 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-  </div>
+ <v-ons-page>
+    <v-ons-toolbar>
+      <div class="center">{{ msg }}</div>
+    </v-ons-toolbar>
+    <section style="margin: 16px">
+      <v-ons-button modifier="large" style="margin: 6px 0">すたーと</v-ons-button>
+    </section>
+  </v-ons-page>
 </template>
 
 <script>
