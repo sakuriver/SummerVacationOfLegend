@@ -11,10 +11,10 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Main',
   data () {
     return {
-      msg: '伝説の夏休み  ~あの親子対決が再び~'
+      msg: 'メイン画面だよ'
     }
   }
 }
